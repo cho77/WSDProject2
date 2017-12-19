@@ -10,7 +10,7 @@ class tasksController extends http\controller
         self::getTemplate('show_task', $record);
         }
         else {
-               $error = 'you must be logged in to view tasks';
+               $error = 'you have to log in to view tasks';
                self::getTemplate('error', $error);
            }
     }
