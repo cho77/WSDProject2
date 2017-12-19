@@ -9,7 +9,6 @@
     <meta name="author" content="SitePoint">
 <style>
 body  {
-    background-image: url("NJIT.jpg");
      background-repeat: no-repeat, repeat;
     background-color: #cccccc;
 }
