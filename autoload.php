@@ -3,6 +3,8 @@ class Manage
 {
 public static function core($class)
 {
+//this is useful to see the class and namespace which is being asked for
+//echo $class . '<br>';
 $path = 'core/' . str_replace('\\', '/', $class) . '.php';
 if (is_file($path)) {
 include $path;
