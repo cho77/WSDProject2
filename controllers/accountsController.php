@@ -20,6 +20,10 @@ class accountsController extends http\controller
      public static function register()
     {
         self::getTemplate('register');
+        //to call the show function the url is called with a post to: index.php?page=task&action=create
+     //this is a function to create new tasks
+     //you should check the notes on the project posted in moodle for how to use active record here
+     //this is to register an account i.e. insert a new account
     }
     public static function store()
     {
