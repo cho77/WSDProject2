@@ -19,9 +19,9 @@
 
 <center>
 <form action="index.php?page=accounts&action=store" method="post" id="form1">
-    First name: <input type="text" name="fname" value=""><br>
-    Last name: <input type="text" name="lname" value=""><br>
-    Email: <input type="text" name="email" value=""><br>
+    Fname: <input type="text" name="fname" value=""><br>
+    Lname: <input type="text" name="lname" value=""><br>
+    mailid: <input type="text" name="email" value=""><br>
     Phone: <input type="text" name="phone" value=""><br>
     Birthday: <input type="text" name="birthday" value=""><br>
     Gender: <input type="text" name="gender" value=""><br>
