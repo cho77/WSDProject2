@@ -2,6 +2,8 @@
 
 class accountsController extends http\controller
 {
+ //each method in the controller is named an action.
+     //to call the show function the url is index.php?page=task&action=show
         public static function show()
     {
         session_start();
