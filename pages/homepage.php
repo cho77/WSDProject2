@@ -28,7 +28,7 @@ body  {
 <form action="index.php?page=accounts&action=login" method="POST">
 
     <div class="container">
-        <label><b>Username</b></label>
+        <label><b>USERNAME</b></label>
         <input type="text" placeholder="Enter Username" name="uname" required>
 
         <label><b>Password</b></label>
