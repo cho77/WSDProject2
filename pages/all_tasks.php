@@ -17,7 +17,7 @@
 <style>
 .lk{
 float:right;
-margin:20px;
+margin:15px;
 }
 
 </style>
